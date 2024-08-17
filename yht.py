@@ -2,7 +2,6 @@ import requests
 import datetime
 import time
 import msvcrt
-from threading import Thread
 from win10toast import ToastNotifier
 toaster = ToastNotifier()
 route_url="https://api-yebsp.tcddtasimacilik.gov.tr/sefer/seferSorgula"
